@@ -8,9 +8,9 @@ self.addEventListener('install', function(event) {
       .then(function(cache) {
         return cache.addAll([
           './',
-          '/public/css/style.css',
-          '/public/js/timer.js',
-          '/public/assets/ring.mp3'
+          './public/css/style.css',
+          './public/js/timer.js',
+          './public/assets/ring.mp3'
         ]);
       })
   );
